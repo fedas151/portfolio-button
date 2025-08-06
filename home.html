@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Button — разработка сайтов для ресторанного бизнеса. </title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="shortcut icon" href="img/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!--<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reem+Kufi+Fun:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap&_v=20250806195224" rel="stylesheet">-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20250806195224"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js?_v=20250806195224"></script>
+	<link rel="stylesheet" href="css/style.min.css?_v=20250806195224">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<section class="header__hero hero">
+				<div class="hero__container">
+					<div class="hero__background">
+						<picture><source srcset="img/Background-cell.webp" type="image/webp"><img src="img/Background-cell.png" alt=""></picture>
+					</div>
+					<div class="hero__background-mob">
+						<picture><source srcset="img/Background-cell768.webp" type="image/webp"><img src="img/Background-cell768.png" alt=""></picture>
+					</div>
+					<div class="hero__background-mobsmall">
+						<picture><source srcset="img/Background-cell360.webp" type="image/webp"><img src="img/Background-cell360.png" alt=""></picture>
+					</div>
+					<div class="hero__corners">
+						<div class="hero__corner-left">
+							<img src="img/Hero-corner-right.svg" alt="">
+						</div>
+						<div class="hero__corner-right">
+							<img src="img/Hero-corner-left.svg" alt="">
+						</div>
+						<div class="hero__corner-left-mob">
+							<img src="img/Hero-corner-right360.svg" alt="">
+						</div>
+						<div class="hero__corner-right-mob">
+							<img src="img/Hero-corner-left360.svg" alt="">
+						</div>
+					</div>
+					<div class="hero__body">
+						<button class="hero__button">
+							<p>Заказать сайт</p>
+						</button>
+						<div class="hero__phone">
+							<img src="img/hero-phone.svg" alt="">
+						</div>
+						<div class="hero__arc">
+							<img src="img/hero-arc.svg" alt="">
+						</div>
+						<div class="hero__logo">
+							<div class="hero__logo-decor">
+								<img src="img/logo-decor.svg" alt="">
+							</div>
+							<div class="hero__logo-image">
+								<img src="img/logo-image.svg" alt="">
+							</div>
+						</div>
+						<div class="hero__character">
+							<div class="hero__character-img">
+								<img src="img/hero-character-illustration.svg" alt="">
+							</div>
+
+							<div class="hero__bubble">
+								<img src="img/hero-bubble.svg" alt="">
+							</div>
+						</div>
+						<div class="hero__character-mob">
+							<img src="img/hero-character-illustration360.svg" alt="">
+							<div class="hero__bubble">
+								<img src="img/hero-bubble.svg" alt="">
+							</div>
+							<div class="hero__bubble-mobile">
+								<img src="img/hero-bubble-mobile.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<p class="header__bottom-text">Добро Пожаловать! — Вы находитесь на сайте веб-студии Button.</p>
+					<p class="header__bottom-text">“Готовим”сайты для кафе и ресторанов</p>
+					<p class="header__bottom-text">Добро Пожаловать! — Вы находитесь на сайте веб-студии Button.</p>
+					<p class="header__bottom-text">“Готовим”сайты для кафе и ресторанов</p>
+
+				</div>
+			</section>
+		</header>
+		<main class="page">
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__decor">
+						<div class="footer__decor-img">
+							<img src="img/Footer-decor.svg" alt="">
+						</div>
+
+					</div>
+					<div class="footer__text">
+						<h3 class="footer__time">
+							Работаем с <span>9:00</span> до <span>22:00</span>
+						</h3>
+						<p class="footer__time-bot">
+							по московскому времени
+						</p>
+						<h4 class="footer__contacts-title">
+							Контакты для связи:
+						</h4>
+						<div class="footer__contacts-tg">
+							<div class="footer__contacts-icon">
+								<img src="img/tg-icon.svg" alt="">
+							</div>
+							<p class="footer__contacts-text">@button _t</p>
+						</div>
+						<div class="footer__contacts-wa">
+							<div class="footer__contacts-icon">
+								<img src="img/wa-icon.svg" alt="">
+							</div>
+							<p class="footer__contacts-text-wa">8(977)635-49-41</p>
+						</div>
+					</div>
+					<div class="footer__logo">
+						<img src="img/footer-logo.svg" alt="">
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20250806195224"></script>
+</body>
+
+</html>
+
+<div class="decor__footer">
+	<img src="img/decor-footer.svg" alt="">
+</div>
+
+
+<form class="mail__form form" method="POST" id="sendform" enctype="multipart/form-data"">
+	<div class=" form__name">
+	<input type="text" placeholder="Ваше имя" name="Name">
+	</div>
+	<div class="form__contacts">
+		<label for="contacts">
+			<p>Куда вам написать:</p>
+		</label>
+		<input type="radio" checked value="telegram" name="contact-tg">
+		<div class="form__telegram">
+			<img src="img/logo-tg.svg" alt="">
+			<p>Telegram</p>
+		</div>
+		<input type="radio" value="whatsapp" name="contact-wh">
+		<div class="form__whatsapp">
+			<img src="img/whatsapp.svg" alt="">
+		</div>
+		<input type="radio" value="mail" name="contact-ma">
+		<div class="form__mail">
+			<p>На почту</p>
+		</div>
+	</div>
+	<div class="form__contact-ours">
+		<input type="text" placeholder="@button_t" name="contact">
+	</div>
+	<div class="form__input">
+		<input type="text" placeholder="Что вы хотите узнать?">
+		<input type="text">
+	</div>
+	<div class="mail__lower">
+		<div class="mail__pin">
+			<img src="img/pin.svg" alt="">
+		</div>
+		<div class="mail__lower-text">
+			<p>Прикрепить ТЗ, Бриф</p>
+		</div>
+		<button class="mail__lower-button" type="submit">
+			<p>Отправить →</p>
+		</button>
+	</div>
+</form>
+
+<form class="form" action="#" method="post" id="sendform" enctype="multipart/form-data">
+	<fieldset>
+		<div class="first-row">
+			<div class="first-row_first-block">
+				<input class="first-block__input" name="location" type="text" placeholder="Местонахождение объекта оценки: *" required />
+				<input class="first-block__input" name="price" type="text" placeholder="Цена оценки: *" required />
+				<input class="first-block__input" name="date" type="text" placeholder="Предпочтительная дата оценки: *" required />
+			</div>
+			<div class="first-row_second-block">
+				<input class="second-block__input" name="name" type="text" placeholder="Ваше имя: *" required />
+				<input class="second-block__input" name="tel" type="tel" placeholder="Контактный телефон *" required />
+				<input class="second-block__input" name="mail" type="email" placeholder="E-mail: *" required />
+			</div>
+			<textarea class="message-field" name="message">Дополнительная информация</textarea>
+		</div>
+		<div class="second-row">
+			<div class="second-row_first-block">
+				<!--           <ul class="upload-files">
+			<li class="upload-filename">Прикрепляемый файл 1.jpg</li>
+			<li class="upload-filename">Прикрепляемый файл 2.jpg</li>
+			<li class="upload-filename">Прикрепляемый файл 3.jpg</li>
+			<li class="upload-filename">Прикрепляемый файл 4.jpg</li>
+		  </ul>
+		  <ul class="upload-files">
+			<li class="upload-filename">Прикрепляемый файл 5.jpg</li>
+			<li class="upload-filename">Прикрепляемый файл 6.jpg</li>
+			<li class="upload-filename">Прикрепляемый файл 7.jpg</li>
+			<li class="upload-filename">Прикрепляемый файл 8.jpg</li>
+		  </ul> -->
+			</div>
+			<div class="btn-wrap">
+				<input class="file-upload-btn inputfile" name="file[]" type="file" id="file" data-multiple-caption="Выбрано файлов - {count}" multiple>
+				<label for="file">Прикрепить файл</label>
+				<input class="submit-btn" type="submit" name="submit" value="Отправить">
+				<div class="text-block">
+					<input type="checkbox" name="policy" id="form-checkbox" class="form-checkbox" required>
+					<label class="form-checkbox__label" for="form-checkbox">Я ознакомил(ся/ась) с &nbsp;<a href="#" class="policy-link"> Политикой</a> &nbsp; и даю согласие на обработку своих персональных данных
+						*</label>
+					<p class="text">Если требуется загрузить больше файлов, присылайте их на электронную почту
+						<a class="email-link" href="mailto:zacaz@cenka-kvartir.ru">zacaz@cenka-kvartir.ru</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+</form>
+
+
+
+<section class="sales">
+	<div class="sales__container">
+		<div class="sales__slider swiper">
+			<div class="sales__cards swiper-wrapper">
+				<div class="sales__card menu swiper-slide">
+					<div class="sales__card-side is-active">
+						<div class="sales__card-title">
+							<h2 class="card-title">Сайт-меню</h2>
+						</div>
+						<div class="sales__card-text">
+							<p>Сайт существующий для того чтобы ознакомить посетителя с меню вашего заведения, сделать заказ на месте, оформить доставку или самовывоз.
+								Делаем “Под ключ”.</p>
+						</div>
+						<button class="sales__card-button">
+							<p class="sales__card-button-text">
+								подробнее
+							</p>
+							<div class="sales__card-button-decor">
+								<img src="img/cursor.svg" alt="">
+							</div>
+						</button>
+						<div class="sales__card-price">
+							<h3>ОТ 70 000р</h2>
+						</div>
+					</div>
+					<div class="sales__card-side card__side--back">
+						<div class="sales__card-title">
+							<h2 class="card-title">Сайт-меню</h2>
+						</div>
+						<div class="sales__card-text">
+							<p>Сайт существующий для того чтобы ознакомить посетителя с меню вашего заведения, сделать заказ на месте, оформить доставку или самовывоз.
+
+								Пример услуги*
+								Сюда входит: Анализ сайтов конкурентов, прототипирование, дизайн сайта (Главная страница до 6 фреймов, меню, корзина), адаптивная верстка, CMS, тестирование, помощь с оформлением хостинга, гарантия. </p>
+						</div>
+						<button class="sales__card-button none">
+							<p class="sales__card-button-text">
+								подробнее
+							</p>
+							<div class="sales__card-button-decor">
+								<img src="img/cursor.svg" alt="">
+							</div>
+						</button>
+						<div class="sales__card-price">
+							<h3>ОТ 70 000р</h2>
+						</div>
+					</div>
+				</div>
+				<div class="sales__card landing swiper-slide">
+					<div class="sales__card-side is-active">
+						<div class="sales__card-title">
+							<h2 class="card-title">Lending-page</h2>
+						</div>
+						<div class="sales__card-text">
+							<p>Одностраничный сайт созданный чтобы разрекламировать товар или услугу и побуждающий посетителя совершить целевое действие и оставить свои данные. Яркий и привлекательный.
+								Делаем “Под ключ”</p>
+						</div>
+						<button class="sales__card-button">
+							<p class="sales__card-button-text">
+								подробнее
+							</p>
+							<div class="sales__card-button-decor hidden">
+								<img src="img/cursor.svg" alt="">
+							</div>
+						</button>
+						<div class="sales__card-price">
+							<h3>ОТ 25 000р</h2>
+						</div>
+					</div>
+					<div class="sales__card-side card__side--back">
+						<div class="sales__card-title">
+							<h2 class="card-title">Lending-page</h2>
+						</div>
+						<div class="sales__card-text">
+							<p>Одностраничный сайт созданный чтобы разрекламировать товар или услугу и побуждающий посетителя совершить целевое действие и оставить свои данные. Яркий и привлекательный.
+
+								Пример услуги*
+								Сюда входит: Исследование ниши, прототипирование, дизайн сайта (одна страница, до 8 фреймов), адаптивная верстка, тестирование, помощь с оформлением хостинга, гарантия. </p>
+						</div>
+						<button class="sales__card-button none">
+							<p class="sales__card-button-text">
+								подробнее
+							</p>
+							<div class="sales__card-button-decor hidden">
+								<img src="img/cursor.svg" alt="">
+							</div>
+						</button>
+						<div class="sales__card-price">
+							<h3>ОТ 25 000р</h2>
+						</div>
+					</div>
+
+				</div>
+				<div class="sales__card visit swiper-slide">
+					<div class="sales__card-side is-active">
+						<div class="sales__card-title">
+							<h2 class="card-title">Дизайн сайта</h2>
+						</div>
+						<div class="sales__card-text third-card">
+							<p>Индивидуальная разработка дизайна для вашего сайта.<br>
+
+								<br>Главная страница до 6 фремов от 7000р, каждая дополнительная от 2000р.<br>
+
+								<br>Вы получите готовый дизайн в двух адаптивах — десктопом и мобильной версией.
+							</p>
+						</div>
+						<div class="sales__card-button hidden">
+							<p class="sales__card-button-text">
+								подробнее
+							</p>
+							<div class="sales__card-button-decor hidden">
+								<img src="img/cursor.svg" alt="">
+							</div>
+						</div>
+						<div class="sales__card-price">
+							ОТ 9 000р
+						</div>
+					</div>
+					<div class="sales__card-side card__side--back">
+						<div class="sales__card-title">
+							<h2 class="card-title">Дизайн сайта</h2>
+						</div>
+						<div class="sales__card-text third-card">
+							<p>Индивидуальная разработка дизайна для вашего сайта.<br>
+
+								<br>Главная страница до 6 фремов от 7000р, каждая дополнительная от 2000р.<br>
+
+								<br>Вы получите готовый дизайн в двух адаптивах — десктопом и мобильной версией.
+							</p>
+						</div>
+						<div class="sales__card-button hidden">
+							<p class="sales__card-button-text">
+								подробнее
+							</p>
+							<div class="sales__card-button-decor hidden">
+								<img src="img/cursor.svg" alt="">
+							</div>
+						</div>
+						<div class="sales__card-price">
+							ОТ 9 000р
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<button type="button" class="swiper-button-next none">
+				<img src="img/slider-btn.svg" alt="">
+			</button>
+		</div>
+
+
+	</div>
+</section>
+.sales {
+&__container {
+padding-top: 100px;
+@media (max-width:$mobile){
+padding-top: 30px;
+}
+}
+&__cards {
+display: flex;
+justify-content: space-between;
+margin-bottom: 60px;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+max-width: fit-content;
+@media (max-width: 850px){
+max-width: 380px;
+min-height: none;
+}
+@media (max-width:$mobile){
+margin-bottom: 20px;
+}
+}
+&__card {
+width: 380px;
+min-height: 430px;
+background-color: #FFEAC8;
+display: grid;
+margin-right: 15px;
+margin-left: 15px;
+margin-bottom: 15px;
+transform-style: preserve-3d;
+animation: rotate-inverse 0s linear both;
+@media (max-width:$mobile){
+min-height: 360px;
+}
+@media (max-width:$mobileSmall){
+min-height: 340px;
+}
+@media (any-hover: hover){
+
+}
+&.is-switched {
+animation: rotate $card-transition-time linear both;
+
+}
+&.unclick {
+transform-style: preserve-3d;
+animation: rotate-inverse $card-transition-time linear both;
+}
+}
+&__card-side {
+display: flex;
+flex-direction: column;
+height: 100%;
+grid-row: 1;
+grid-column: 1;
+backface-visibility: hidden;
+}
+&__card-title {
+margin: 10px auto 0 auto;
+font-family: "Reem Kufi Fun", sans-serif;
+font-weight: 600;
+font-size: 40px;
+max-width: fit-content;
+color: #AE2F2F;
+@media (max-width:$mobile){
+font-size: 30px;
+margin-top: 15px;
+}
+}
+&__card-text {
+margin: 0px 40px;
+margin-top: 32px;
+flex: 1 1 auto;
+font-family: "St Sign", sans-serif;
+font-size: 20px;
+line-height: 140%;
+color: #22435C;
+padding-bottom: 15px;
+@media (max-width:$mobile){
+font-size: 16px;
+}
+}
+&__card-button {
+margin: 0px auto;
+font-family: "Inter", sans-serif;
+font-size: 20px;
+text-decoration: underline;
+@media (any-hover: hover){
+&:hover{
+cursor: pointer;
+color: #AE2F2F;
+transition: all 0.3s ease 0s;
+}
+}
+}
+&__card-button-text { }
+&__card-button-decor {
+position: relative;
+float: right;
+left: 18px;
+bottom: 3px;
+}
+&__card-price {
+margin-left: auto;
+margin-right: 30px;
+margin-bottom: 24px;
+font-family: "Reem Kufi Fun", sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 140%;
+color: #AE2F2F;
+}
+&__desc {
+margin-top: 74px;
+margin-bottom: 90px;
+padding: 0 15px;
+display: grid;
+max-width: 910px;
+margin-left: auto;
+margin-right: auto;
+@media (max-width:$tablet){
+max-width: 740px;
+}
+@media (max-width:$mobile){
+min-height: 180px;
+margin-top: 35px;
+margin-bottom: 40px;
+}
+@media (max-width:$mobileSmall){
+min-height: 130px;
+margin-top: 30px;
+margin-bottom: 35px;
+}
+}
+&__desc-decor {
+grid-row: 1;
+grid-column: 1;
+@media (max-width:$tablet){
+& img {
+width: 740px;
+}
+}
+@media (max-width:$mobile){
+width: 75vw;
+margin-left: auto;
+margin-right: auto;
+& img {
+width: 75vw;
+margin-left: auto;
+margin-right: auto;
+}
+}
+}
+&__desc-text {
+grid-row: 1;
+grid-column: 1;
+margin: auto;
+color: #263238;
+font-family:"St Sign", sans-serif;;
+font-size: 32px;
+letter-spacing: 5%;
+line-height: auto;
+text-align: center;
+width: 100%;
+& span {
+color: #961600;
+}
+@media (max-width:$tablet){
+font-size: 24px;
+width: fit-content;
+}
+@media (max-width:$mobile){
+font-size: 16px;
+position: relative;
+bottom: 10px;
+}
+@media (max-width:$mobileSmall){
+font-size: 14px;
+position: relative;
+bottom: 10px;
+}
+}
+&__desc-button {
+grid-row: 1;
+grid-column: 1;
+margin-top: auto;
+margin-left: auto;
+margin-bottom: 27px;
+color: #AE2F2F;
+font-size: 16px;
+font-family: "Inter", serif;
+@media (max-width:$mobileSmall){
+margin-bottom: 20px;
+}
+}
+}
